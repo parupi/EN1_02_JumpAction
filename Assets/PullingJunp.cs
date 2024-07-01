@@ -10,7 +10,7 @@ public class PullingJunp : MonoBehaviour
     private float jumpPower = 10;
     private bool isCanJump;
 
-    enum GravityDirection
+    private string nowSceneName;
     {
         Up, Left, Down, Right
     }
